@@ -1,0 +1,182 @@
+/* @keyframes animation1 { 
+        from {background-image: url("C:/Users/Aisha Kaiser/Desktop/flames.gif");}
+        to {background-image: url("C:/Users/Aisha Kaiser/Desktop/flames.gif");} 
+    } */
+
+              
+           body{  
+               width:1110px;
+			   background: rgba(0, 0, 0, 0.5);
+			   /*background-image: url("C:/Users/Aisha Kaiser/Desktop/flames.gif");*/
+               background-size: /*animatable*/cover;
+               background-image: center;
+			   max-width:95%;
+			   margin:auto;
+               animation-name: animation1;
+               animation-duration: 10s;
+               animation-iteration-count: 500;
+			   }
+/*Begin: Navigation Bar Design*/
+   #nav-bar-ul {
+	           list-style-type: none;
+               margin: 0;
+               padding: 0;
+               overflow: hidden;
+               background-color: #333;
+               }
+
+      #nav-bar {
+	           float:left;	
+               }
+
+     #nav-bar a{
+               display: block;
+               color: white;
+               text-align: center;
+               padding: 14px 16px;
+               text-decoration: none;
+               }
+#nav-bar a:hover {
+               background-color: red; /* Change the link color to #111 (black) on hover */
+}
+/*End: nvaigation Bar Design*/
+	         h1{
+			   float: left;
+			   color: rgb(255, 255, 255);
+			   margin: 0;
+			   }
+
+      header h1{
+			   text-align:center;
+			   font-weight: bold;
+			   color:rgb(255, 255, 255);
+               font-size: 40px;
+			   }
+
+	    section{
+			   background: url("C:/Users/Aisha Kaiser/Videos/Website 2 Sandbox Project/Images/cool-header.jpg");
+			   padding: 10px 100px;
+			   margin: 10px -100px 10px -100px;
+			   border: 7px solid black;
+			   border-radius: 90px;
+                
+			   }
+	 section h2{
+			   text-align:center;
+			   color:rgb(255, 255, 255);
+			   }
+      section p{
+			   color:rgb(255, 255, 255);
+			   font-weight: bold;
+			   }
+	    article{
+			   background: url("C:/Users/Aisha Kaiser/Videos/Website 2 Sandbox Project/Images/cool-header.jpg");
+			   background-size: cover;
+			   float:left;
+			   width: 29.3%;
+			   margin: 1%;
+			   padding: 1%;
+			   height: 180px;
+			   margin: 20px -1px 20px -1px;
+			   border: 7px solid black;
+			   border-radius: 90px;
+			   }
+
+			 h3{
+			   text-align:center;
+			   color:rgb(255, 255, 255);
+			   font-weight: bold;
+			   }
+             
+             a {
+				 display: block;
+				 text-align:center;
+	            
+               }
+	  article p{
+			   color:rgb(255, 255, 255);
+			   }
+
+		 footer{
+			   text-align:center;
+			   /*background:rgb(115, 250, 251);*/
+			   /*clear:left;*/
+			   padding:200px;
+			   font-weight: bold;
+			   }
+
+			 li{
+			   color:rgb(255, 255, 255);
+			   text-align:center;
+			   font-size: 27px;
+			   font-weight: bold;
+			   list-style-type: none; /*No bullet points in list. Also helps center*/
+			   }
+    
+			  p{
+				text-align:center;
+				font-size: 30px;
+			    font-weight: bold;
+                color: rgb(255, 255, 255);
+                }
+
+             h4 {
+	            text-align:center;
+				font-size: 30px;
+			    font-weight: bold;
+                color: rgb(255, 255, 255);
+                }
+
+             h5 {
+	            text-align:center;
+				font-size: 30px;
+			    font-weight: bold;
+                color: rgb(255, 255, 255);
+                }
+
+#email_field_text {
+	             font-size: 30px;
+	             font-weight: bold;
+                 font-style: italic; 
+                }
+
+          input {
+                border: 2px solid black;
+                width: 100%; 
+                font-style: Impact;
+                font-size:18px;
+                color: black;
+                 }
+
+   ::placeholder {
+                 color: black;
+                 }
+
+         .Submit {
+                  background-color: green; /* Green */
+                 }
+/*When the browser is smaller than 500pixels, these effects come into play*/
+@media (max-width: 500px) {
+            body {
+                 /*background: red;*/
+				 max-width:95%;
+			     margin:auto;
+                 }
+	
+	      article{
+			     margin: 0 auto;
+			     margin: 10px -20px 10px 10px;
+			     border: 7px solid black;
+			     border-radius: 90px;
+			     width: 200px;
+			  padding: 50px 50px;
+	             }
+			    p{
+				  display: inline;
+				  text-align:right;
+				font-size: 18px;
+			    font-weight: bold;
+                color: rgb(255, 255, 255);
+                }
+			   }
+	
